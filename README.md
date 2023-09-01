@@ -1,2 +1,28 @@
-# Photomosaic
-Realizing photomosaic with MATLAB
+# 图片马赛克生成器 (Photomosaic)
+
+这个项目可以使用你给定的素材图片来生成目标图片的马赛克效果。
+
+## 效果展示
+
+以下是生成的马赛克图片效果：
+
+![效果](md_figs/small.png)
+
+> 注：展示的图片是压缩版本，因为原图文件较大。
+
+还有放大与缩小的动态效果：
+
+![动画效果1](md_figs/v1_reduced.gif)
+
+![动画效果2](md_figs/v2_reduced.gif)
+
+## 安装和使用说明
+
+1. 将`images`文件夹中的图片替换为你自己的素材图片。
+2. 把你想要转换的目标图片替换为`target.jpg`。
+3. 运行`main.m`文件。
+4. 生成的马赛克图片将会保存在`results`文件夹中。
+
+## 技术原理
+
+想了解该项目的实现细节和原理，可以查看这篇文章：[动手实现千图成像](https://zhuanlan.zhihu.com/p/652679620/edit)。
